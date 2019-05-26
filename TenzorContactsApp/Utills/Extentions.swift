@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+//кастомный RGB
 extension UIColor {
     static func rgb(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor {
         return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)
     }
 }
-
+//кастомный метод энчоринга
 extension UIView {
     func anchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?,  paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat, height: CGFloat) {
         
@@ -45,7 +45,7 @@ extension UIView {
     }
     
 }
-
+//модели текстовых полей
 class textFieldModels {
     let editableTextField: UITextField = {
         let tf = UITextField()
@@ -93,4 +93,5 @@ class placeHolders {
     let friendsPlaceHolder = "Друзья"
     let jobIndex = "1"
     let friendIndex = "2"
+    let searchBarPlaceHolder = "Введите фамилию"
 }

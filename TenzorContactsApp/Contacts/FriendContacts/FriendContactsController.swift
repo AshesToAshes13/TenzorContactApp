@@ -74,7 +74,7 @@ class FriendContactsController: UITableViewController, UISearchBarDelegate {
     //MARK: - создание эелементов интерфейса пользователя
     lazy var searchBar: UISearchBar = {
         let sb = UISearchBar()
-        sb.placeholder = "Введите фамилию"
+        sb.placeholder = placeHolders().searchBarPlaceHolder
         sb.delegate = self
         return sb
     }()
