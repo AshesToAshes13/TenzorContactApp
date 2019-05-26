@@ -76,7 +76,7 @@ class JobContactsController: UITableViewController, UISearchBarDelegate {
         return sb
     }()
     //MARK: - создание функций
-    //Функция поиска усли поисковый запрос пустой уравнивает значение словаря filtredFriendContact с значениями словаря friendContact, но при наличии поискового запроса проверяет запрос и фамилию в базе данных для контактов и выводит все совпадения
+    //Функция поиска усли поисковый запрос пустой уравнивает значение словаря fitredJobContacts с значениями словаря jobContacts, но при наличии поискового запроса проверяет запрос и фамилию в базе данных для контактов и выводит все совпадения
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText.isEmpty {
             fitredJobContacts = jobContacts
