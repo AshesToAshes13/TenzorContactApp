@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845B01C0AFC597E71F800C03 /* Pods_TenzorContactsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1DA1F32C4406515F8F1643 /* Pods_TenzorContactsApp.framework */; };
+		EB5BAF7622930F5000F7F082 /* JobContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF7522930F5000F7F082 /* JobContactsController.swift */; };
+		EB5BAF782293339000F7F082 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF772293339000F7F082 /* SignInController.swift */; };
+		EB5BAF7B2293525500F7F082 /* CreatContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF7A2293525500F7F082 /* CreatContactController.swift */; };
+		EB5BAF7D229371E900F7F082 /* FriendContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF7C229371E900F7F082 /* FriendContactsController.swift */; };
+		EB5BAF7F2293736100F7F082 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF7E2293736100F7F082 /* MainTabBarController.swift */; };
+		EB5BAF822294E7D600F7F082 /* JobContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF812294E7D600F7F082 /* JobContactModel.swift */; };
+		EB5BAF852294F3A600F7F082 /* JobContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF842294F3A600F7F082 /* JobContactsCell.swift */; };
+		EB5BAF87229518E600F7F082 /* JobDeatailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF86229518E600F7F082 /* JobDeatailViewController.swift */; };
+		EB5BAF8A2295335200F7F082 /* FriendContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF892295335200F7F082 /* FriendContactsModel.swift */; };
+		EB5BAF8C2295358C00F7F082 /* FriendsContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF8B2295358C00F7F082 /* FriendsContactsCell.swift */; };
+		EB5BAF8E22953FF000F7F082 /* FriendsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BAF8D22953FF000F7F082 /* FriendsDetailViewController.swift */; };
 		EB82B1D72292D0E8006D9D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82B1D62292D0E8006D9D44 /* AppDelegate.swift */; };
-		EB82B1D92292D0E8006D9D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82B1D82292D0E8006D9D44 /* ViewController.swift */; };
+		EB82B1D92292D0E8006D9D44 /* SingUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82B1D82292D0E8006D9D44 /* SingUpController.swift */; };
 		EB82B1DC2292D0E8006D9D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82B1DA2292D0E8006D9D44 /* Main.storyboard */; };
 		EB82B1DE2292D0EC006D9D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB82B1DD2292D0EC006D9D44 /* Assets.xcassets */; };
 		EB82B1E12292D0EC006D9D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82B1DF2292D0EC006D9D44 /* LaunchScreen.storyboard */; };
+		EB82B1EB2292E48A006D9D44 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82B1EA2292E48A006D9D44 /* Extentions.swift */; };
+		EB82B1ED2292E764006D9D44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB82B1EC2292E763006D9D44 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2227148EAEE918619E43168 /* Pods-TenzorContactsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenzorContactsApp.debug.xcconfig"; path = "Target Support Files/Pods-TenzorContactsApp/Pods-TenzorContactsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5BAF7522930F5000F7F082 /* JobContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContactsController.swift; sourceTree = "<group>"; };
+		EB5BAF772293339000F7F082 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		EB5BAF7A2293525500F7F082 /* CreatContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatContactController.swift; sourceTree = "<group>"; };
+		EB5BAF7C229371E900F7F082 /* FriendContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendContactsController.swift; sourceTree = "<group>"; };
+		EB5BAF7E2293736100F7F082 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EB5BAF812294E7D600F7F082 /* JobContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContactModel.swift; sourceTree = "<group>"; };
+		EB5BAF842294F3A600F7F082 /* JobContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContactsCell.swift; sourceTree = "<group>"; };
+		EB5BAF86229518E600F7F082 /* JobDeatailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDeatailViewController.swift; sourceTree = "<group>"; };
+		EB5BAF892295335200F7F082 /* FriendContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendContactsModel.swift; sourceTree = "<group>"; };
+		EB5BAF8B2295358C00F7F082 /* FriendsContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsContactsCell.swift; sourceTree = "<group>"; };
+		EB5BAF8D22953FF000F7F082 /* FriendsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailViewController.swift; sourceTree = "<group>"; };
 		EB82B1D32292D0E8006D9D44 /* TenzorContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenzorContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB82B1D62292D0E8006D9D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB82B1D82292D0E8006D9D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB82B1D82292D0E8006D9D44 /* SingUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpController.swift; sourceTree = "<group>"; };
 		EB82B1DB2292D0E8006D9D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB82B1DD2292D0EC006D9D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB82B1E02292D0EC006D9D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB82B1E22292D0EC006D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB82B1EA2292E48A006D9D44 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		EB82B1EC2292E763006D9D44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F65A2E0BB61337AE6DD0D25B /* Pods-TenzorContactsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenzorContactsApp.release.xcconfig"; path = "Target Support Files/Pods-TenzorContactsApp/Pods-TenzorContactsApp.release.xcconfig"; sourceTree = "<group>"; };
+		FA1DA1F32C4406515F8F1643 /* Pods_TenzorContactsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenzorContactsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845B01C0AFC597E71F800C03 /* Pods_TenzorContactsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7C2184FBB11BAB30CE13B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2227148EAEE918619E43168 /* Pods-TenzorContactsApp.debug.xcconfig */,
+				F65A2E0BB61337AE6DD0D25B /* Pods-TenzorContactsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB5BAF792293345700F7F082 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BAF882295331C00F7F082 /* FriendContacts */,
+				EB5BAF832294F38100F7F082 /* JobContacts */,
+				EB5BAF7A2293525500F7F082 /* CreatContactController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		EB5BAF802294E7BB00F7F082 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BAF812294E7D600F7F082 /* JobContactModel.swift */,
+				EB5BAF892295335200F7F082 /* FriendContactsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB5BAF832294F38100F7F082 /* JobContacts */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BAF7522930F5000F7F082 /* JobContactsController.swift */,
+				EB5BAF842294F3A600F7F082 /* JobContactsCell.swift */,
+				EB5BAF86229518E600F7F082 /* JobDeatailViewController.swift */,
+			);
+			path = JobContacts;
+			sourceTree = "<group>";
+		};
+		EB5BAF882295331C00F7F082 /* FriendContacts */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BAF7C229371E900F7F082 /* FriendContactsController.swift */,
+				EB5BAF8B2295358C00F7F082 /* FriendsContactsCell.swift */,
+				EB5BAF8D22953FF000F7F082 /* FriendsDetailViewController.swift */,
+			);
+			path = FriendContacts;
+			sourceTree = "<group>";
+		};
 		EB82B1CA2292D0E7006D9D44 = {
 			isa = PBXGroup;
 			children = (
 				EB82B1D52292D0E8006D9D44 /* TenzorContactsApp */,
 				EB82B1D42292D0E8006D9D44 /* Products */,
+				2D7C2184FBB11BAB30CE13B5 /* Pods */,
+				F878D0360B03658E5D52C734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,44 @@
 		EB82B1D52292D0E8006D9D44 /* TenzorContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				EB82B1D62292D0E8006D9D44 /* AppDelegate.swift */,
-				EB82B1D82292D0E8006D9D44 /* ViewController.swift */,
+				EB82B1E92292E469006D9D44 /* Utills */,
+				EB82B1E82292D71E006D9D44 /* Reg and Auth */,
+				EB5BAF792293345700F7F082 /* Contacts */,
 				EB82B1DA2292D0E8006D9D44 /* Main.storyboard */,
+				EB5BAF7E2293736100F7F082 /* MainTabBarController.swift */,
+				EB82B1D62292D0E8006D9D44 /* AppDelegate.swift */,
 				EB82B1DD2292D0EC006D9D44 /* Assets.xcassets */,
 				EB82B1DF2292D0EC006D9D44 /* LaunchScreen.storyboard */,
 				EB82B1E22292D0EC006D9D44 /* Info.plist */,
+				EB82B1EC2292E763006D9D44 /* GoogleService-Info.plist */,
 			);
 			path = TenzorContactsApp;
+			sourceTree = "<group>";
+		};
+		EB82B1E82292D71E006D9D44 /* Reg and Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EB82B1D82292D0E8006D9D44 /* SingUpController.swift */,
+				EB5BAF772293339000F7F082 /* SignInController.swift */,
+			);
+			path = "Reg and Auth";
+			sourceTree = "<group>";
+		};
+		EB82B1E92292E469006D9D44 /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BAF802294E7BB00F7F082 /* Models */,
+				EB82B1EA2292E48A006D9D44 /* Extentions.swift */,
+			);
+			path = Utills;
+			sourceTree = "<group>";
+		};
+		F878D0360B03658E5D52C734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DA1F32C4406515F8F1643 /* Pods_TenzorContactsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB82B1E52292D0EC006D9D44 /* Build configuration list for PBXNativeTarget "TenzorContactsApp" */;
 			buildPhases = (
+				48E8DC5258C952BBDDA05920 /* [CP] Check Pods Manifest.lock */,
 				EB82B1CF2292D0E7006D9D44 /* Sources */,
 				EB82B1D02292D0E7006D9D44 /* Frameworks */,
 				EB82B1D12292D0E7006D9D44 /* Resources */,
+				33D59EB1FAEDDBD667E4204B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB82B1E12292D0EC006D9D44 /* LaunchScreen.storyboard in Resources */,
+				EB82B1ED2292E764006D9D44 /* GoogleService-Info.plist in Resources */,
 				EB82B1DE2292D0EC006D9D44 /* Assets.xcassets in Resources */,
 				EB82B1DC2292D0E8006D9D44 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +244,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33D59EB1FAEDDBD667E4204B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TenzorContactsApp/Pods-TenzorContactsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TenzorContactsApp/Pods-TenzorContactsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E8DC5258C952BBDDA05920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TenzorContactsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB82B1CF2292D0E7006D9D44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB82B1D92292D0E8006D9D44 /* ViewController.swift in Sources */,
+				EB5BAF8A2295335200F7F082 /* FriendContactsModel.swift in Sources */,
+				EB5BAF822294E7D600F7F082 /* JobContactModel.swift in Sources */,
+				EB82B1D92292D0E8006D9D44 /* SingUpController.swift in Sources */,
 				EB82B1D72292D0E8006D9D44 /* AppDelegate.swift in Sources */,
+				EB5BAF7F2293736100F7F082 /* MainTabBarController.swift in Sources */,
+				EB5BAF7B2293525500F7F082 /* CreatContactController.swift in Sources */,
+				EB5BAF782293339000F7F082 /* SignInController.swift in Sources */,
+				EB5BAF8E22953FF000F7F082 /* FriendsDetailViewController.swift in Sources */,
+				EB5BAF852294F3A600F7F082 /* JobContactsCell.swift in Sources */,
+				EB5BAF7622930F5000F7F082 /* JobContactsController.swift in Sources */,
+				EB5BAF7D229371E900F7F082 /* FriendContactsController.swift in Sources */,
+				EB5BAF87229518E600F7F082 /* JobDeatailViewController.swift in Sources */,
+				EB82B1EB2292E48A006D9D44 /* Extentions.swift in Sources */,
+				EB5BAF8C2295358C00F7F082 /* FriendsContactsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +459,7 @@
 		};
 		EB82B1E62292D0EC006D9D44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2227148EAEE918619E43168 /* Pods-TenzorContactsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +478,7 @@
 		};
 		EB82B1E72292D0EC006D9D44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65A2E0BB61337AE6DD0D25B /* Pods-TenzorContactsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
